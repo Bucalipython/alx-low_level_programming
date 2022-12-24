@@ -28,7 +28,7 @@ int main(void)
 	}
 	else
 	{
-		puts(" and is less than 6 not 0");
+		puts(" and is less than 6 and not 0");
 	}
 
 	return (0);
