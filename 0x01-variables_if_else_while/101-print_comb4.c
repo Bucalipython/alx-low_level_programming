@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main program entry point
+ * main - program entry point. prints different comb.
  * Return: 0 success, non zero fail
 **/
 
