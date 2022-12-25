@@ -6,7 +6,7 @@
 
 void times_table(void)
 {
-	int i, j, op;
+	int a, j, op;
 
 	for (a = 0; a <= 9; a++)
 	{
@@ -18,7 +18,7 @@ void times_table(void)
 			_putchar(32);
 			if (op <= 9)
 			{
-				_putchar('32');
+				_putchar(32);
 				_putchar(op + 48);
 			}
 			else
