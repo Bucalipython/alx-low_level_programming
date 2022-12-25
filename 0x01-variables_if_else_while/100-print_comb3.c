@@ -7,7 +7,8 @@
 
 int main(void)
 {
-	int i, k = '0', j;	
+	int i, k = '0', j;
+
 	for (i = '0'; i <= '9'; i++)
 	{
 		for (j = k; j <= '9'; j++)
@@ -30,8 +31,8 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
-	}
-	k++;
+		}
+		k++;
 }
 putchar('\n');
 return (0);
