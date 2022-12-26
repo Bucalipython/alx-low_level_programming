@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (success)
-**/
+* main - Entry point*
+* Return: 0
+*/
 
 in main(void)
 {
@@ -13,12 +12,13 @@ in main(void)
 	printf("Infinite loop incoming :(\n");
 	i = 0;
 
-	/*
-	 * while (i < 10)
-	 * {
-	 *      putchar(i);
-	 * }
-	 */
+	/*while (i < 10)
+	{
+		putchar(i);
+	}
+	*/
+
 	printf("Infinite loop avoided! \\o/\n");
+
 	return (0);
 }
